@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/donation1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 50px;
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.btn {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    background: #ff5959;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.row {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.col {
+    background: #fafafa;
+    border-radius: 5px;
+    margin-bottom: 4%;
+    padding: 40px 40px;
+}
+.hot {
+    background: #ffeeee;
+    border: 1px solid #ff5959;
+}
+.hot h3 {
+    color: #ff5959;
+}
+.col h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.add-taka{
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.plan {
+    text-align: left;
+    line-height: 45px;
+    padding: 30px 15px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+.plan img {
+    width: 35px;
+}
+.plan h3 {
+    font-size: 25px;
+}
+#plan1 {
+    background: #4f9da630;
+}
+#plan2 {
+    background: #ff595927;
+}
+#plan3 {
+    background: #c3d10094;
+}
+.donation {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.left p {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.right img {
+    width: 100%;
+    border-radius: 20px;
+}
+input {
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+form {
+    background: #fff4d6;
+    padding: 42px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+button {
+    background: #ff5959;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    background: #000;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+.footer h2 {
+    color: #ff5959;
+    font-size: 30px;
+    font-weight: 600;
+}
